@@ -7,7 +7,7 @@
 ## if an inverse matrix is already present in the cache and if not it computes the inverse, returns it and caches it.
 ## Note: this funtion can at the moment work only on bidimensional square invertible matrices.
 
-## makeCacheMatrix: This function creates a special "matrix"
+## makeCacheMatrix:  This function creates a special "matrix"
 
 makeCacheMatrix <- function(x = matrix()) {
         inv_x <- NULL
